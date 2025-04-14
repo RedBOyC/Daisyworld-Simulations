@@ -293,15 +293,3 @@ ax2.grid(True)
 
 plt.tight_layout()
 plt.show()
-
-"""##Why only white daisies have hysterisis
-
-Hysterisis- system remembers past inputs, and its output lags behind
-
-When there are more white daisies, the cooling effect experienced by the planet
-increases. But when it gets too cold, the white daisies wither out, decreasing overall planet's Albedo. However, the planet (the system) still remembers the initial cooling effect which causes it to still experience cooling effect, allowing for the white daisies to thrive again (slighlty).
-
-However, for black daisies that has a warming effect causes the earth to experience warming effect. when the temp is too hot, black daisies wither out, but the earth continues to warm up ( but isn't this hysterisis as well?)
-
-I guess for black daisies, since L is increasing, maybe the effective temperatures continuous increase may not be due to past memory of the system but just a natural response. It is clear that the trend for effective temperature after black daisies are erased, follows the trend shown in figure 1 graph a.
-"""
