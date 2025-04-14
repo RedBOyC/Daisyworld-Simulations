@@ -1,0 +1,24 @@
+Daisyworld Climate Regulation Model:
+
+A Python simulation of the Daisyworld model inspired by Watson & Lovelock (1983), exploring how simple life forms can help regulate a planet's climate. This project demonstrates the closed-coupling between biological populations and environmental feedbacks.
+
+Overview:
+
+Daisyworld is a fictional world used as a toy model to illustrate how life (Biota) interacts with its environment to achieve homeostasis.
+
+In Daisyworld there are two type of daisies; one which is dark-absorbs most solar radiation (black daisy) and another light-reflects most solar radiations (white daisy). Black daisy has lower albedo while white as higher albedo.
+
+The sun also gradually gets brighter, reflected through increasing L, luminosity which is dimensionless. 
+
+The model simulated the feedback loop formed between the different albedos, local temperature and the effective temperature. There are 3 simulations: 1 for just black daisies, 1 for just white daisies and last 1 for both (with 1% initial coverage for each daisies in each simulation).
+
+
+Key concepts:
+
+1) Closed-Coupling: The idea that life and its environment are interdependent; changes in one affect the other.
+
+2) Albedo and Temperature Feedback: The planet’s overall albedo is determined by the coverage of black and white daisies. Local temperatures vary with the albedo of a patch: black daisies warm their local area, while white daisies cool theirs.
+
+3) Differential Equations & Steady States:The system is governed by equations that balance birth (growth rate) and death rates. Steady state is achieved when the rate of daisy growth equals the rate of death.
+
+4) Parameter q (measuring distribution of heat): Controls the distribution of heat across the planet. For q=0, there is perfect conduction (even temperature distribution). As q increases, the system approaches perfect insulation, leading to significant local temperature variations. If it exceeds a certain threshold, it equation becomes physically impossible to occur in real life.
